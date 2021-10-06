@@ -1,0 +1,226 @@
+
+
+#htmlI {
+    background-color: #E63950;
+    background: linear-gradient(0deg, #d4a1a8, #E63950 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+#htmlC {
+    background-color: black;
+    background: linear-gradient(0deg, #E63950, black );
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+#mainC {
+    color: white;
+}
+
+#mainC h1 {
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    background-color: #E63950;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+}
+
+section h1 {
+    font-size: 300%;
+    text-shadow: 10px 10px 10px #CEF2EF;
+}
+
+section a {
+    font-size: 170%;
+    text-shadow: 10px 10px 10px #CEF2EF;
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none
+}
+
+form div {
+    margin: 10%;
+}
+
+.divL {
+    font-size: 130%;
+    padding: 2%;
+    margin: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 3%;
+    width: 230%;
+    border-radius: 100px;
+    border-color: #E63950;
+}
+
+#btn1 {
+    margin-top: 40%;
+    background-color: #E63950;
+    border-radius: 100px;
+    color: white;
+    text-shadow: #E63950;
+    border: 2px solid white;
+    font-size: 110%;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+
+
+#btn1:hover {
+    background-color:#fcc3c34d;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.582);
+}
+
+.ponto {
+    list-style-type: none;
+}
+
+#cartao {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-image: url("/img/pokedex.png");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    margin: 50px;
+    margin-top: 80px;
+    border-radius: 55%;
+    box-shadow: 10px 10px rgba(63, 63, 63, 0.575);
+}
+
+
+
+#ponto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+}
+
+#text2 {
+    color: #E63950;
+    margin-top: 30px;
+}
+
+#card {
+    text-decoration: none;
+}
+
+#cartao:hover:nth-child(odd) {
+    background-image: url("/img/open.png");
+}
+
+#htmlD {
+    background-color: #CEF2EF;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.452), #CEF2EF );
+}
+
+#cardd {
+    display: flex;
+    align-items: center;
+}
+
+#form {
+    padding: 52px;
+    margin: 50px;
+    background-color: #CEF2EF;
+}
+
+#img1 {
+    background-image: url("/img/pokeball.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#formd {
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 40px;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.esp {
+    margin: 5px;
+    color: black;
+}
+
+#msg {
+    margin: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-left: 0px;
+    background-color: transparent;
+}
+
+#msgp {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+span#close {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+  
+span#close:hover{
+    color: rgb(255, 0, 0);
+    transform: scale(1.5);
+}
+
+span {
+    margin-left: 20px;
+}

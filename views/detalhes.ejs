@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html id="htmlD" lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/gamin.png"/>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title> Detalhes </title>
+</head>
+
+<body>
+
+    <section>
+        <a class="btn" href="/"> Home </a></button> 
+        <h1> P<img id="imgp" src="/img/pokedex.png" width="30" height="30">kédex</h1>
+        <a class="btn" href="/cadastro"> Cadastro </a></button> 
+    </section>
+
+    <section id="form">
+        
+        <div id="cardd" href="/detalhes/">
+            
+            
+            <img id="img1" src="<%= pokemon.imagem %>" width="350" height="350" alt="">
+
+                <div id="formd">
+                    <div class="esp">Nome: <%= pokemon.nome %></div>
+                    <div class="esp">Tipo: <%= pokemon.tipo %></div>
+                    <div class="esp">Descrição: <%= pokemon.descricao %></div>
+                    <div class="esp">Altura: <%= pokemon.altura %></div>
+                    <div class="esp">Peso: <%= pokemon.peso %></div>
+                    <div class="esp">Categoria: <%= pokemon.categoria %></div>
+                    <div class="esp">Habilidade: <%= pokemon.habilidade %></div>
+                </div>
+        
+        </div>
+     
+    </section>
+    
+</body>
+</html>
